@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>NúcleoInfantil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Nunito&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1E88E5, #43A047);
+      color: white;
+      padding: 30px 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+    }
+
+    nav {
+      background-color: #FDD835;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 12px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      color: #8E24AA;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #F5F5F5;
+      border-radius: 15px;
+      padding: 20px;
+      border-top: 8px solid #FB8C00;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1E88E5;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    .idade {
+      background-color: #E3F2FD;
+      border-radius: 20px;
+      padding: 30px;
+      margin-top: 40px;
+    }
+
+    .idade.verde {
+      background-color: #E8F5E9;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>NúcleoInfantil</h1>
+  <p>Atividades educativas, coloridas e gratuitas para crianças</p>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#2a4">2–4 anos</a>
+  <a href="#5a7">5–7 anos</a>
+  <a href="#pais">Para Pais</a>
+</nav>
+
+<section id="inicio">
+  <h2>🌈 Bem-vindo ao NúcleoInfantil</h2>
+  <p>
+    O NúcleoInfantil é um espaço educativo online com atividades para
+    imprimir, pintar e aprender brincando. Tudo organizado por idade,
+    com visual alegre e linguagem simples.
+  </p>
+</section>
+
+<section id="2a4" class="idade">
+  <h2>👶 Crianças de 2 a 4 anos</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🎨 Pinte com Emoção</h3>
+      <p>Pintar desenhos simples usando cores que representam emoções.</p>
+    </div>
+
+    <div class="card">
+      <h3>✋ Trace e Siga</h3>
+      <p>Atividades de pontilhado e linhas para coordenação motora.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔴 Onde Está a Cor?</h3>
+      <p>Identificar cores básicas em desenhos e objetos.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎵 Brincadeira do Som</h3>
+      <p>Imitar sons de animais e objetos do dia a dia.</p>
+    </div>
+  </div>
+</section>
+
+<section id="5a7" class="idade verde">
+  <h2>🧒 Crianças de 5 a 7 anos</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🔤 Complete a Palavra</h3>
+      <p>Atividades simples de alfabetização inicial.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔢 Conte e Marque</h3>
+      <p>Exercícios de contagem e matemática básica.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧠 Encontre o Diferente</h3>
+      <p>Jogos visuais para atenção e lógica.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧩 Labirinto Simples</h3>
+      <p>Ajude o personagem a chegar ao objetivo.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pais">
+  <h2>👨‍👩‍👧 Para Pais e Educadores</h2>
+  <p>
+    As atividades do NúcleoInfantil foram criadas para estimular o
+    aprendizado sem pressão. O mais importante é incentivar,
+    acompanhar e valorizar o esforço da criança.
+  </p>
+</section>
+
+<footer>
+  <p>© NúcleoInfantil — Conteúdo educativo e gratuito</p>
+</footer>
+
+</body>
+</html>
